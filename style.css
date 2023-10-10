@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 900px;
+    border: 1px solid black;
+}
+
+
+.row {
+    display: flex;
+    border: 1px solid black;
+    flex: 1;
+}
+
+.cells {
+    flex: 1;
+    border: 1px solid black;
+}
