@@ -1,8 +1,8 @@
 const container = document.querySelector('.container');
 let currentGridSize = 16;
-let currentColor = 'black';
+let currentColor = '#2a2a3c';
 
-function createGrid(num = 16) {
+function createGrid(num) {
     num = currentGridSize;
     for (let i = 0; i < num; i++) {
         const row = document.createElement('div');
@@ -92,6 +92,15 @@ function colorMode(event) {
     case 'blue':
         currentColor = '#99beb7';
         break;
+    case 'yellow':
+      currentColor = '#f2c665';
+      break;
+    case 'black':
+      currentColor = '#2a2a3c'
+      break;
+    case 'eraser':
+      currentColor = 'white';
+      break;
   }
 }
 
