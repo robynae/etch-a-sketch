@@ -4,21 +4,31 @@
     <meta charset = "UTF-8">
     <title>Etch-a-Sketch</title>
     <link rel='stylesheet' href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
   </head>
   <body>
-    <header class="header">
-      <button class="sixteen button">16</button>
-      <button class="thirty-two button">32</button>
-      <button class="sixty-four button">64</button>
-      <button class="red color">Red</button>
-      <button class="orange color">Orange</button>
-      <button class="yellow color">Yellow</button>
-      <button class="blue color">Blue</button>
-      <button class="black color">Black</button>
-      <button class="eraser color">Eraser</button>
-      <button class="reset">Reset</button>
-    </header>
-    <div class="container"></div>
+    <div class="header">
+      <h1>Etch-a-Sketch</h1>
+    </div>
+    <div class="etch">
+      <div class="grid-container">
+        <button class="sixteen button">16</button>
+        <button class="thirty-two button">32</button>
+        <button class="sixty-four button">64</button>
+        <button class="reset">Reset</button>
+        </div>
+      <div class="container"></div>
+      <div class="color-container">
+        <button class="red color"></button>
+        <button class="orange color"></button>
+        <button class="yellow color"></button>
+        <button class="blue color"></button>
+        <button class="black color"></button>
+        <button class="eraser color"></button>
+      </div> 
+    </div>
   </body>
 </html>
