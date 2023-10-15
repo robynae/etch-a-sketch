@@ -3,13 +3,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(#f4ecd6, #fbf8ef);
+    font-family: 'Pixelify Sans', 'Roboto', sans-serif;
 }
 
 h1 {
-    font-family: 'Pixelify Sans', 'Roboto', sans-serif;
-    font-size: 50px;
+    font-size: 75px;
+    text-shadow: 3px 3px 0px #ca3c4a, 6px 6px 0px #ef7546, 9px 9px 0px #99beb7;
+    margin: 15px;
 }
 
 .etch {
@@ -27,7 +31,7 @@ h1 {
     flex-direction: column;
     width: 800px;
     height: 800px;
-    border: 1px solid black;
+    background-color: white;
 }
 
 .color-container {
@@ -86,13 +90,31 @@ h1 {
   background-color: #ebebeb;
 }
 
+.grid-container {
+    font-family: '';
+    margin: 0;
+    padding: 25px;
+    gap: 25px;
+}
+
+.button {
+  width: 200px;
+  height: 75px;
+  font-family: sans-serif;
+  font-size: 25px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(#ebdbad, #f3eace);
+}
+.button:hover {
+    background: linear-gradient(#f3eace, #ebdbad);
+}
+
 .row {
     display: flex;
-    /*border: 1px solid black;*/
     flex: 1;
 }
 
 .cells {
     flex: 1;
-    border: 1px solid black;
 }
